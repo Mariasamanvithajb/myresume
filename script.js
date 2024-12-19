@@ -34,15 +34,8 @@ $(document).ready(function () {
         alert(`Navigating to ${pageName} page`);
     });
 
-    // Form validation for the Contact page
-    $("form").on("submit", function (e) {
-        const name = $("#name").val().trim();
-        const email = $("#email").val().trim();
-        const message = $("#message").val().trim();
+    
 
-        if (!name || !email || !message) {
-            e.preventDefault();
-            alert("Please fill in all fields before submitting.");
-        }
+       
     });
 });
